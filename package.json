@@ -1,0 +1,23 @@
+{
+  "name": "pruebasautomatizadasplaywright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:report": "npx playwright show-report",
+    "test:ui": "npx playwright test --ui",
+    "test:login": "playwright test tests/login.spec.ts --ui",
+    "test:cart": "playwright test tests/addCart.spec.ts --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
