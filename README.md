@@ -1,0 +1,2 @@
+# dwtraining_pruebas_automatizadas_mayo12_2024-
+Repositorio de pruebas automatizadas usando Playwright 
